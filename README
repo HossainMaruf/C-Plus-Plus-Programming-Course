@@ -1,0 +1,56 @@
+# C++ Programming Course
+
+## Class and Object (OOP)
+- Theory, Pillars (`Encapsulation`, `Polymorphism`, `Inheritance`, `Abstraction`) and Applications
+- Encapsulation and `class object` concept
+- `public` and `private` access modifier and initialize fields - `Student.cpp`
+- Taking user input and initialzie fields - `Employee.cpp`
+- Setter/Mutator concept - `Circle.cpp`
+- Getter/Accessor concept - `Rectangle.cpp`
+- `this` keyword using `Triangle.cpp` when conflicts identifier (There are many use cases though) 
+- `private` access modifier and data hiding concept using `BankAccount.cpp`
+- `constructor or object builder` theory and types
+- `non parameterized constructor` concept using `Trapezium.cpp`
+- `parameterized constructor` concept using `Car.cpp`
+- `copy constructor` concept using `Sphere.cpp`
+- `object orientation` - `Library.cpp`
+- `destructor or object destroyer` and concept of `stack and heap` memory - `Destructor.cpp`
+- Destruct the heap array using `delete[]` - `DestructorArrayHeap.cpp`
+
+## Method Overloading / Compile Time Polymorphism / Static Binding
+- Basic Idea using `Printer.java` of exact parameter type matching
+- Type auto promotion idea using `Finder.java` when exact match failed
+- Ambiguity problem when multiple match `Matcher.java`
+
+## Inheritance
+- Inheritance Theory (Definitin, Types, Advantages and Idea)
+- Single Inheritance: `extends` keyword and Constructor Chaining using `Parent.java` and `super()` 
+- Single Inheritance: Accessing methods `Person.java` 
+- Hierarchical Inheritance: Implementation using `Vehicle.java`
+- Multilevel Inheritance: Implementation using `Grandfather.java`
+- Multiple Inheritance: Implementation using `CEO.java` - `(Diamond Problem)`
+- Hybrid Inheritance: Implementation using `Hybrid.java`
+
+## Method Overriding / Runtime Polymorphism / Dynamic Binding
+- Basic Overriding using `Shape.java`   
+- Real life example using `Employee.java` and super class method calling by `super keyword`
+- Common Confusion about Upcasting using `Animal.java`
+- Complexity of Downcasting using `Man.java`
+
+## java.lang.Object Class (Topmost Class of Java)
+- `User Comparison` using `toString()` method of `java.lang.Object` class (Our class is `User.java`)
+
+
+## Access Modifiers (default, public, private, protected)
+- Compiler Generated Constructor
+```JAVA
+public ConstructorName() {
+    super();
+}
+```
+|Modifier Name| Same Class | Same Package | Subclass (Other Package) | Other Classes | 
+|------|--------|-----|------|-------|
+| default | ✔️  |  ✔️ | ❌ | ❌  |
+| private | ✔️  |  ️❌ |  ❌ | ❌  |
+| public  | ️ ✔️ |  ✔️️ | ✔️  |  ✔️️ |
+| protected |✔️ |  ✔️ | ✔️ |  ❌️ |
