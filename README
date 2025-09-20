@@ -1,5 +1,17 @@
 # C++ Programming Course
 
+## Basic Input Output
+- C++ Syntax - `Syntax.cpp`
+- Output using cout - `Output.cpp`  
+- Taking keyboard input - `Input Output.cpp`
+- Taking string input - `StringInput.cpp`
+- Some Useful string library functions - `strLibraryFunc.cpp`
+
+## C vs C++
+- Difference in main func - `main.c` and `main.cpp`
+- Struct in C - `StructInC.c`
+- Struct in C++ - `StructInCPP.c`
+
 ## Class and Object (OOP)
 - Theory, Pillars (`Encapsulation`, `Polymorphism`, `Inheritance`, `Abstraction`) and Applications
 - Encapsulation and `class object` concept
@@ -13,23 +25,34 @@
 - `non parameterized constructor` concept using `Trapezium.cpp`
 - `parameterized constructor` concept using `Car.cpp`
 - `copy constructor` concept using `Sphere.cpp`
+- Complete Example - `Ratio.cpp`
 - `object orientation` - `Library.cpp`
-- `destructor or object destroyer` and concept of `stack and heap` memory - `Destructor.cpp`
-- Destruct the heap array using `delete[]` - `DestructorArrayHeap.cpp`
+- `destructor or object destroyer` and concept of memory leak using `stack and heap` memory - `Destructor.cpp`
+- Destruct the heap array to avoid memory leak using `delete[]` - `DestructorArrayHeap.cpp`
+- Shallow copy concept - `CopyStackMemory.cpp`
+- Deep copy concept - `CopyHeapMemory.cpp`
 
 ## Method Overloading / Compile Time Polymorphism / Static Binding
-- Basic Idea using `Printer.java` of exact parameter type matching
-- Type auto promotion idea using `Finder.java` when exact match failed
-- Ambiguity problem when multiple match `Matcher.java`
+- Basic Idea using `Printer.cpp` of exact parameter type matching
+- Type auto promotion idea using `Finder.cpp` when exact match failed
+- Ambiguity problem when multiple match `Matcher.cpp`
 
 ## Inheritance
 - Inheritance Theory (Definitin, Types, Advantages and Idea)
-- Single Inheritance: `extends` keyword and Constructor Chaining using `Parent.java` and `super()` 
-- Single Inheritance: Accessing methods `Person.java` 
-- Hierarchical Inheritance: Implementation using `Vehicle.java`
-- Multilevel Inheritance: Implementation using `Grandfather.java`
-- Multiple Inheritance: Implementation using `CEO.java` - `(Diamond Problem)`
-- Hybrid Inheritance: Implementation using `Hybrid.java`
+- Single Inheritance and Constructor Chaining using `ParentChild.cpp`
+- Single Inheritanc with Stack and Heap Memory - `BaseDerived.cpp`
+- Complete Example - `AddExtraFeatures.cpp`
+- Share Class Fields - `ShareFields.cpp`
+- Single Inheritance: Accessing methods `Person.cpp` 
+- Parameter Passing to Base class - `PassData.cpp`
+- Parameter Passing to Base class - `PassData2.cpp`
+- Hierarchical Inheritance: Implementation using `Vehicle.cpp`
+- Multilevel Inheritance: Implementation using `Grandfather.cpp`
+- Multiple Inheritance: Implementation using `CEO.cpp` - `(No Diamond Problem)`
+- Hybrid Inheritance: Implementation using `Hybrid.cpp`
+- Constructor Destructor Order - `ConstructorDestructorOrder.cpp`
+- isA and hasA relationship - `isAhasA.cpp`
+- Role of access modifier in inheritance - `AccessModifierInheritance.cpp`
 
 ## Method Overriding / Runtime Polymorphism / Dynamic Binding
 - Basic Overriding using `Shape.java`   
