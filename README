@@ -55,10 +55,13 @@
 - Role of access modifier in inheritance - `AccessModifierInheritance.cpp`
 
 ## Method Overriding / Runtime Polymorphism / Dynamic Binding
-- Basic Overriding using `Shape.java`   
-- Real life example using `Employee.java` and super class method calling by `super keyword`
-- Common Confusion about Upcasting using `Animal.java`
-- Complexity of Downcasting using `Man.java`
+- Basic Function Overriding - `Shape.cpp`   
+- Base Pointer and Derived Object 1 - `BasePointerDerivedObject.cpp`
+- Base Pointer and Derived Object 2 - `OverridingBasic.cpp`
+- Base Pointer and Derived Object 3 - `Car.cpp`
+- Real life example using `Employee.cpp` and super class method calling by `:: scope resolution operator`
+- Common Confusion about Upcasting - `Animal.cpp`
+- Complexity of Downcasting - `Man.java`
 
 ## java.lang.Object Class (Topmost Class of Java)
 - `User Comparison` using `toString()` method of `java.lang.Object` class (Our class is `User.java`)
